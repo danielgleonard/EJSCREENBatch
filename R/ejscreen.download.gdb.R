@@ -15,7 +15,7 @@
 #' @export
 #'
 #' @examples
-ejscreen.download.local <- function (folder = "EJSCREEN data", file, yr = NULL, ftpurlbase = "https://gaftp.epa.gov/EJSCREEN/",
+ejscreen.download.local <- function (folder = "EJSCREEN data", file, yr = 2022, ftpurlbase = "https://gaftp.epa.gov/EJSCREEN/",
                                      state=NULL, justreadname = NULL, addflag = FALSE, cutoff = 80)
 {
 
